@@ -1,0 +1,27 @@
+<script>
+
+    function pulaLinha() {
+        document.write("<br>")
+        document.write("<br>")
+    }
+
+    function mostra() {
+       
+        pulaLinha()
+    }
+
+    function calculaImc(peso, altura) {
+        return peso / (altura * altura)
+    }
+
+    var Roberto = calculaImc(80, 1.80)
+    var Beto = calculaImc(90, 1.80)
+
+    document.write("O imc do Roberto é: " + Roberto)
+    mostra()
+    document.write("O imc do Roberto é: " + Beto)
+    
+    //document.write("O imc do Beto é: " + Beto)
+
+
+</script>
