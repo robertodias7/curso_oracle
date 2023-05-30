@@ -1,0 +1,16 @@
+.img-cabecalho{
+   width: 120px;
+   height: 48px;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.texto{
+    width: 300px;
+    height: 400px;
+}
+
+ .res{
+    height:500px;;
+}
